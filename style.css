@@ -1,0 +1,8 @@
+body{
+  background-color: #061130;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
