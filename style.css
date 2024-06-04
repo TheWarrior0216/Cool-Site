@@ -1,8 +1,31 @@
 body{
   background-color: #061130;
+  display: flex;
+  flex-direction: column;
+  color: #f4f6f8;
 }
+
 header{
   display: flex;
   justify-content: space-between;
   align-items: end;
+}
+
+.flex{
+  display: flex;
+}
+.flex-width{
+  width: 50%;
+}
+.img-width{
+  width: 100%;
+}
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f4f6f8;
+}
+.spacing{
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
